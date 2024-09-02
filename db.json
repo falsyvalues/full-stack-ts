@@ -34,6 +34,34 @@
       "createdAt": "2022-03-23T03:55:59.614Z",
       "updatedAt": "2022-03-23T03:55:59.614Z",
       "id": "tweet-1220baa2-2092-4ed8-a72c-91757dc508f7"
+    },
+    {
+      "message": "First tweet!!1",
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "createdAt": "2024-08-31T22:01:40.660Z",
+      "updatedAt": "2024-08-31T22:01:40.660Z",
+      "id": "tweet-78c5763a-f73d-4bc7-a592-bd9699875ef1"
+    },
+    {
+      "message": "First tweet!!1",
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "createdAt": "2024-09-02T09:19:02.028Z",
+      "updatedAt": "2024-09-02T09:19:02.028Z",
+      "id": "tweet-f5f7c009-126a-4a21-952f-bc9c3ff10616"
+    },
+    {
+      "message": "Yololololo",
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "createdAt": "2024-09-02T09:22:51.084Z",
+      "updatedAt": "2024-09-02T09:22:51.084Z",
+      "id": "tweet-b013cc75-e4a2-415d-84bc-687a9d200587"
+    },
+    {
+      "message": "One more test",
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "createdAt": "2024-09-02T09:25:13.488Z",
+      "updatedAt": "2024-09-02T09:25:13.488Z",
+      "id": "tweet-674fd5f4-7bf9-40d9-8e97-db7aa7c5f484"
     }
   ],
   "users": [
@@ -146,6 +174,27 @@
       "createdAt": "2022-03-23T03:55:59.617Z",
       "updatedAt": "2022-03-23T03:55:59.617Z",
       "id": "favorite-a4e781ad-1c7b-4e62-b9dd-66b4e36e390b"
+    },
+    {
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "tweetId": "tweet-674fd5f4-7bf9-40d9-8e97-db7aa7c5f484",
+      "createdAt": "2024-09-02T14:19:19.348Z",
+      "updatedAt": "2024-09-02T14:19:19.349Z",
+      "id": "favorite-20a52c5a-9eea-4d32-873c-0e8f6800d06d"
+    },
+    {
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "tweetId": "tweet-b013cc75-e4a2-415d-84bc-687a9d200587",
+      "createdAt": "2024-09-02T14:19:32.365Z",
+      "updatedAt": "2024-09-02T14:19:32.365Z",
+      "id": "favorite-c4d585aa-7218-4682-af45-e0a8ceedaaf0"
+    },
+    {
+      "userId": "user-15a37948-7712-4e0b-a554-2fef33f31697",
+      "tweetId": "tweet-f5f7c009-126a-4a21-952f-bc9c3ff10616",
+      "createdAt": "2024-09-02T14:20:28.189Z",
+      "updatedAt": "2024-09-02T14:20:28.189Z",
+      "id": "favorite-f87d2be3-b60f-404f-8127-446ae4ca3eba"
     }
   ],
   "hashtagTrends": [

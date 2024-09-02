@@ -7,7 +7,7 @@ import * as express from 'express';
 import { Server } from 'http';
 import { GRAPHQL_SCHEMA_PATH } from './constants';
 import Db from './db';
-import resolvers from './resolvers';
+import resolvers, { TwitterResolverContext } from './resolvers';
 
 const SCHEMA = loadSchemaSync(GRAPHQL_SCHEMA_PATH, {
   loaders: [new GraphQLFileLoader()],
@@ -25,7 +25,12 @@ export async function createApolloServer(
       schema: SCHEMA,
       resolvers,
     }),
-    context: () => ({ db }),
+    context: (): TwitterResolverContext => ({
+      db,
+      dbTweetCache: {},
+      dbTweetToFavoriteCountMap: {},
+      dbUserCache: {},
+    }),
     plugins: [ApolloServerPluginDrainHttpServer({ httpServer })],
   });
   await server.start();
